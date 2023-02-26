@@ -1,19 +1,19 @@
 <template>
   <header>
     <nav
-      class="container px-6 py-8 mx-auto md:flex md:justify-between md:items-center"
+      class="row px-6 py-6 md:flex md:justify-between md:items-center bg-gray-100"
     >
       <div class="flex items-center justify-between">
         <router-link
           :to="{name: 'home'}"
-          class="text-xl font-bold text-gray-100 md:text-2xl hover:text-indigo-400"
+          class="text-xl font-bold text-black md:text-2xl hover:text-indigo-400"
           >Logo
         </router-link>
         <!-- Mobile menu button -->
         <div @click="toggleNav" class="flex md:hidden">
           <button
             type="button"
-            class="text-gray-100 hover:text-gray-400 focus:outline-none focus:text-gray-400"
+            class="text-dark hover:text-gray-400 focus:outline-none focus:text-gray-400"
           >
             <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
               <path
@@ -30,16 +30,16 @@
         :class="showMenu ? 'flex' : 'hidden'"
         class="flex-col mt-8 space-y-4 md:flex md:space-y-0 md:flex-row md:items-center md:space-x-10 md:mt-0"
       >
-        <li class="text-gray-100 hover:text-indigo-400">
+        <li class="text-black hover:text-indigo-400">
           <router-link :to="{name: 'home'}">Home</router-link>
         </li>
-        <li class="text-gray-100 hover:text-indigo-400">
+        <li class="text-black hover:text-indigo-400">
           <router-link :to="{name: 'about'}">Acerca de</router-link>
         </li>
-        <li class="text-gray-100 hover:text-indigo-400">
-          <router-link :to="{name: 'projects'}">Projectos</router-link>
+        <li class="text-black hover:text-indigo-400">
+          <router-link :to="{name: 'projects'}">Projecto</router-link>
         </li>
-        <li class="text-gray-100 hover:text-indigo-400">
+        <li class="text-black hover:text-indigo-400">
           <router-link :to="{name: 'contact'}">Contacto</router-link>
         </li>
       </ul>
