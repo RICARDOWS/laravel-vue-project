@@ -1,58 +1,159 @@
 <template>
-    <main>
-    <div
-      class="relative pt-16 pb-32 flex content-center items-center justify-center"
-      style="min-height: 75vh"
-    >
-      <div
-        class="absolute top-0 w-full h-full bg-center bg-cover"
-        style="
-          background-image: url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1267&amp;q=80');
-        "
-      >
-        <span
-          id="blackOverlay"
-          class="w-full h-full absolute opacity-75 bg-black"
-        ></span>
-      </div>
-      <div class="container relative mx-auto">
-        <div class="items-center flex flex-wrap">
-          <div class="w-full lg:w-6/12 px-4 ml-auto mr-auto text-center">
-            <div class="pr-12">
-              <h1 class="text-white font-semibold text-5xl">Projectos</h1>
-              <p class="mt-4 text-lg text-gray-300">
-                This is a simple example of a Landing Page you can build using
-                Tailwind Starter Kit. It features multiple CSS components based
-                on the Tailwindcss design system.
-              </p>
+  <main>
+    <!-- Header text -->
+    <div class="row text-center">
+      <p class="font-bold text-4xl">Portafolio</p>
+      <p class="text-2xl"><!-- Avaliable to work. Get in touch. --></p>
+    </div>
+    <!-- Portafolio -->
+    <section>
+      <div class="container mx-auto px-5 py-16 lg:px-32">
+        <!-- Galeria projectos -->
+        <div class="flex flex-wrap">
+          <!-- Columna izquierda -->
+          <div class="flex w-1/1 md:w-1/2 flex-wrap">
+            <!-- Projecto 1 -->
+            <div class="w-1/2 p-1 md:p-2">
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/chileno/img8.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
+            </div>
+            <!-- Projecto 2 -->
+            <div class="w-1/2 p-1 md:p-2">
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/haciendas_villas-chileno_bay/img1.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
+            </div>
+            <!-- Projecto 3 -->
+            <div class="w-full p-1 md:p-2">
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-100  rounded-lg object-cover object-center"
+                  src="projects/park_haciendas-chileno_bay/img3.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
+            </div>
+          </div>
+          <!-- Columna derecha -->
+          <div class="flex w-1/1 md:w-1/2 flex-wrap">
+            <!-- Projecto 4 -->
+            <div class="w-full p-1 md:p-2">
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/haciendas_villas-chileno_bay/img2.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
+            </div>
+            <!-- Projecto 5 -->
+            <div class="w-1/2 p-1 md:p-2">
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/varios/entrada_61_recamara/img1.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
+            </div>
+            <!-- Projecto 6 -->
+            <div class="w-1/2 p-1 md:p-2">
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construcción</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/varios/sixples_el_dorado/img1.JPG"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div
-        class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
-        style="height: 70px"
-      >
-        <svg
-          class="absolute bottom-0 overflow-hidden"
-          xmlns="http://www.w3.org/2000/svg"
-          preserveAspectRatio="none"
-          version="1.1"
-          viewBox="0 0 2560 100"
-          x="0"
-          y="0"
-        >
-          <polygon
-            class="text-gray-300 fill-current"
-            points="2560 0 2560 100 0 100"
-          ></polygon>
-        </svg>
-      </div>
-    </div>
+    </section>
   </main>
 </template>
 
 <script setup>
-import { ref } from "vue"
-
+import { ref } from "vue";
 </script>

@@ -1,129 +1,152 @@
 <template>
   <main>
+    <!-- Portafolio -->
     <section>
-      <div class="container mx-auto px-5 py-2 lg:px-32">
+      <div class="container mx-auto px-5 py-16 lg:px-32">
+        <!-- Galeria projectos -->
         <div class="flex flex-wrap">
-          <div class="flex w-1/2 flex-wrap">
+          <!-- Columna izquierda -->
+          <div class="flex w-1/1 md:w-1/2 flex-wrap">
+            <!-- Projecto 1 -->
             <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(70).webp"
-              />
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/chileno/img8.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
             </div>
+            <!-- Projecto 2 -->
             <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(72).webp"
-              />
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/haciendas_villas-chileno_bay/img1.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
             </div>
+            <!-- Projecto 3 -->
             <div class="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-              />
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-100  rounded-lg object-cover object-center"
+                  src="projects/park_haciendas-chileno_bay/img3.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
             </div>
           </div>
-          <div class="flex w-1/2 flex-wrap">
+          <!-- Columna derecha -->
+          <div class="flex w-1/1 md:w-1/2 flex-wrap">
+            <!-- Projecto 4 -->
             <div class="w-full p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
-              />
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/haciendas_villas-chileno_bay/img2.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
             </div>
+            <!-- Projecto 5 -->
             <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
-              />
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construccion</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/varios/entrada_61_recamara/img1.jpg"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
             </div>
+            <!-- Projecto 6 -->
             <div class="w-1/2 p-1 md:p-2">
-              <img
-                alt="gallery"
-                class="block h-full w-full rounded-lg object-cover object-center"
-                src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
-              />
+              <div class="overflow-hidde cursor-pointer relative group">
+                <div
+                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                >
+                  <div>
+                    <div
+                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
+                    >
+                      <div class="font-bold">Proyecto de IPM</div>
+                      <div class="opacity-60 text-sm">Construcción</div>
+                    </div>
+                  </div>
+                </div>
+                <img
+                  class="block h-full w-full rounded-lg object-cover object-center"
+                  src="projects/varios/sixples_el_dorado/img1.JPG"
+                  alt="Projecto Construccion Arquitectura"
+                />
+              </div>
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap">
-          <div class="flex flex-wrap w-1/3">
-            <div class="w-full p-1 md:p-2">
-              <div class="overflow-hidde cursor-pointer relative group">
-                <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0  text-white flex items-end" >
-                  <div>
-                    <div
-                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
-                    >
-                      <div class="font-bold">Image Title</div>
-                      <div class="opacity-60 text-sm">
-                        Image Description
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <img
-                  alt=""
-                  class="block h-full w-full rounded-lg object-cover object-center"
-                  src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-wrap w-1/3">
-            <div class="w-full p-1 md:p-2">
-              <div class="overflow-hidde cursor-pointer relative group">
-                <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0  text-white flex items-end" >
-                  <div>
-                    <div
-                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
-                    >
-                      <div class="font-bold">Image Title</div>
-                      <div class="opacity-60 text-sm">
-                        Image Description
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <img
-                  alt=""
-                  class="block h-full w-full rounded-lg object-cover object-center"
-                  src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="flex flex-wrap w-1/3">
-            <div class="w-full p-1 md:p-2">
-              <div class="overflow-hidde cursor-pointer relative group">
-                <div class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0  text-white flex items-end" >
-                  <div>
-                    <div
-                      class="p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
-                    >
-                      <div class="font-bold">Image Title</div>
-                      <div class="opacity-60 text-sm">
-                        Image Description
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <img
-                  alt=""
-                  class="block h-full w-full rounded-lg object-cover object-center"
-                  src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- component -->
       </div>
     </section>
+    <!-- A growing company -->
     <section class="py-12">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
@@ -214,13 +237,14 @@
         </div>
       </div>
     </section>
+    <!-- Clientes -->
     <section class="pt-20 pb-48">
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap justify-center text-center mb-24">
           <div class="w-full lg:w-6/12 px-4">
             <h2 class="text-4xl font-semibold">Clientes</h2>
             <p class="text-lg leading-relaxed m-4 text-gray-600">
-             Clientes destacados.
+              Clientes destacados.
             </p>
           </div>
         </div>
