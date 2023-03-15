@@ -8,7 +8,7 @@
           class="text-xl font-bold text-black hover:text-indigo-400"
         >
           <img
-            src="logos/LOGO_IPM_FONDO.png"
+            src="logos/logo.png"
             alt="ipm group logo"
             width="100"
           />

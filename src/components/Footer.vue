@@ -21,9 +21,9 @@
     </div>
     <div class="container mx-auto px-4">
       <div class="flex flex-wrap">
-        <!-- Redes sociales -->
-        <div class="w-full lg:w-6/12 px-4">
-          <div class="flex flex-wrap items-top mb-6">
+        <!-- Otros -->
+        <div class="w-full lg:w-4/12 px-4">
+          <div class="flex flex-wrap items-top mb-4">
             <!-- <div class="w-full lg:w-4/12 px-4 ml-auto">
               <span
                 class="block uppercase text-gray-600 text-sm font-semibold mb-2"
@@ -60,55 +60,58 @@
                 </li>
               </ul>
             </div> -->
-            <div class="w-full lg:w-4/12 px-4">
-              <span
-                class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                >Otros</span
-              >
+            <div class="w-full lg:w-6/12 px-4">
+              <img src="logos/logo.png" alt="ipm group logo" width="400" />
+            </div>
+            <div class="w-full lg:w-6/12 px-4 ml-auto">
+              
               <ul class="list-unstyled">
                 <router-link
-                  class="block px-4 text-sm bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0  focus:text-gray-900  focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  class="block px-4 text-md bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0 focus:text-gray-900 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                   tag="li"
                   :to="{ name: 'home' }"
                   >Home</router-link
                 >
                 <router-link
-                  class="block px-4 text-sm bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0  focus:text-gray-900  focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  class="block px-4 text-md bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0 focus:text-gray-900 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                   tag="li"
                   :to="{ name: 'projects' }"
                   >Portafolio</router-link
                 >
                 <!-- <router-link
-                  class="block px-4 text-sm bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0  focus:text-gray-900  focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  class="block px-4 text-md bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0  focus:text-gray-900  focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                   tag="li"
                   :to="{ name: 'home' }"
                   >Services</router-link
                 > -->
                 <router-link
-                  class="block px-4 text-sm bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0  focus:text-gray-900  focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  class="block px-4 text-md bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0 focus:text-gray-900 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                   tag="li"
                   :to="{ name: 'about' }"
                   >Acerca de</router-link
                 >
 
                 <router-link
-                  class="block px-4 text-sm bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0  focus:text-gray-900  focus:bg-gray-200 focus:outline-none focus:shadow-outline"
+                  class="block px-4 text-md bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0 focus:text-gray-900 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
                   tag="li"
                   :to="{ name: 'contact' }"
                   >Contacto</router-link
                 >
               </ul>
             </div>
-            <div class="w-full lg:w-4/12 px-4 ml-auto"></div>
           </div>
         </div>
-        <!-- Otros -->
-        <div class="w-full lg:w-6/12 px-4">
-          <h4 class="text-3xl font-semibold">Social Media</h4>
-          <h5 class="text-lg mt-0 mb-2 text-gray-700">
-           <!--  You can find us on any of our social networks -->Puedes seguirnos en nuestras redes sociales:
-          </h5>
-          <div class="mt-6">
+        <!-- Info -->
+        <div class="w-full lg:w-5/12 px-4">
+          <p class="text-lg">Plaza las Fuentes local 29 Y 30,</p>
+          <p class="text-lg">
+            Carretera Transpeninsular Km 27.5. San José del Cabo B.C.S.
+          </p>
+          <p class="text-lg">+52 624 168 9747</p>
+        </div>
+        <!-- Redes sociales -->
+        <div class="w-full lg:w-3/12 px-4">
+          <div class="mt-4 text-right">
             <button
               class="bg-white text-blue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 p-3"
               type="button"
@@ -134,13 +137,13 @@
           </div>
         </div>
       </div>
-      <hr class="my-6 border-gray-400" />
+      <hr class="my-2 border-gray-400" />
       <!-- Bottom line -->
       <div
         class="flex flex-wrap items-center md:justify-between justify-center"
       >
         <div class="w-full md:w-4/12 px-4 mx-auto text-center">
-          <div class="text-sm text-gray-600 font-semibold py-1">
+          <div class="text-sm text-gray-600 font-semibold">
             Copyright © {{ date }}
           </div>
         </div>

@@ -1,13 +1,13 @@
 <template>
   <main>
     <!-- Header text -->
-    <div class="row text-center mb-8">
+    <div class="row text-center mb-12">
       <p class="font-bold text-4xl">Contacto</p>
       <p class="text-2xl"><!-- Avaliable to work. Get in touch. --></p>
     </div>
-    <div class="row mb-10 mx-20">
+    <div class="row py-16 mx-20">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div class="w-full">
+        <div class="w-10/12 mx-auto">
           <!-- component -->
           <form class="">
             <div class="flex flex-wrap -mx-3 mb-6">
@@ -79,8 +79,8 @@
             </div>
           </form>
         </div>
-        <div class="w-full ">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.2609552229947!2d-116.86562708482592!3d32.46571128106709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d939499184e549%3A0xb79881844046635d!2sPlaza%20Las%20Fuentes%20El%20Florido!5e0!3m2!1ses-419!2smx!4v1678570304278!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <div class="w-full">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3366.2609552229947!2d-116.86562708482592!3d32.46571128106709!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d939499184e549%3A0xb79881844046635d!2sPlaza%20Las%20Fuentes%20El%20Florido!5e0!3m2!1ses-419!2smx!4v1678570304278!5m2!1ses-419!2smx" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
       </div>
     </div>
