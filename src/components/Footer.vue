@@ -63,8 +63,7 @@
             <div class="w-full lg:w-6/12 px-4">
               <img src="logos/logo.png" alt="ipm group logo" width="400" />
             </div>
-            <div class="w-full lg:w-6/12 px-4 ml-auto">
-              
+            <div class="w-full lg:w-6/12 px-4 ml-auto pt-4">
               <ul class="list-unstyled">
                 <router-link
                   class="block px-4 text-md bg-transparent rounded-lg dark-mode:bg-transparent dark-mode:focus:bg-gray-600 dark-mode:focus:text-white dark-mode:text-gray-200 md:mt-0 focus:text-gray-900 focus:bg-gray-200 focus:outline-none focus:shadow-outline"
@@ -102,7 +101,7 @@
           </div>
         </div>
         <!-- Info -->
-        <div class="w-full lg:w-5/12 px-4">
+        <div class="w-full lg:w-5/12 px-4 pt-4">
           <p class="text-lg">Plaza las Fuentes local 29 Y 30,</p>
           <p class="text-lg">
             Carretera Transpeninsular Km 27.5. San José del Cabo B.C.S.
