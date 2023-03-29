@@ -228,9 +228,8 @@
               </h2>
 
               <p class="mb-8 text-gray-500">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+                Nuestro equipo ofrece servicios especializados en el análisis, estudio y ejecución de proyectos de obra e instalaciones,
+                contando para ello con todos los medios técnicos y materiales necesarios.
               </p>
             </div>
           </div>
@@ -251,13 +250,12 @@
 
             <div class="flex flex-1 flex-col p-4 sm:p-6">
               <h2 class="mb-2 text-lg font-semibold text-gray-800 text-center">
-                <p>Renovaciones</p>
+                <p>Remodelación</p>
               </h2>
 
               <p class="mb-8 text-gray-500">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+               Le ofrecemos una amplia gama de soluciones innovadoras a nivel habitacional, oficina y exteriores en remodelaciones,
+               ampliaciones, arquitectura y diseño de interiores.
               </p>
             </div>
           </div>
@@ -282,9 +280,8 @@
               </h2>
 
               <p class="mb-8 text-gray-500">
-                This is a section of some simple filler text, also known as
-                placeholder text. It shares some characteristics of a real
-                written text.
+                En IPM llevamos a cabo actividades de mantenimiento integral con el objetivo de que su obra se mantenga con un funcionamiento
+                óptimo durante su vida proyectada.
               </p>
             </div>
           </div>
@@ -301,6 +298,9 @@
           </div>
         </div>
         <div class="flex flex-wrap">
+          <!-- Cabo del sol -->
+          
+          <!-- El dorado -->
           <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
               <img
@@ -332,6 +332,7 @@
               </div>
             </div>
           </div>
+          <!-- Del mar -->
           <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
               <img
@@ -363,6 +364,7 @@
               </div>
             </div>
           </div>
+          <!-- Chileno bay -->
           <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
               <img
@@ -444,11 +446,10 @@
           <h2 class="text-4xl font-semibold text-center">Nuestros colaboradores</h2>
         </div>
         <!-- text - end -->
-
         <div
           class="grid grid-cols-2 gap-x-4 gap-y-6 sm:gap-y-8 lg:grid-cols-3 lg:gap-x-8 lg:gap-y-12"
         >
-          <!-- person - start -->
+          <!-- colaborador -->
           <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
             <div
               class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32"
@@ -474,9 +475,9 @@
               </p>
             </div>
           </div>
-          <!-- person - end -->
+          
 
-          <!-- person - start -->
+          <!-- colaborador -->
           <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
             <div
               class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32"
@@ -502,9 +503,9 @@
               </p>
             </div>
           </div>
-          <!-- person - end -->
+          
 
-          <!-- person - start -->
+          <!-- colaborador -->
           <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
             <div
               class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32"
@@ -530,9 +531,9 @@
               </p>
             </div>
           </div>
-          <!-- person - end -->
+          
 
-          <!-- person - start -->
+          <!-- colaborador -->
           <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
             <div
               class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32"
@@ -558,9 +559,9 @@
               </p>
             </div>
           </div>
-          <!-- person - end -->
+          
 
-          <!-- person - start -->
+          <!-- colaborador -->
           <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
             <div
               class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32"
@@ -586,37 +587,9 @@
               </p>
             </div>
           </div>
-          <!-- person - end -->
+          
 
-          <!-- person - start -->
-          <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
-            <div
-              class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32"
-            >
-              <img
-                src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&q=75&fit=crop&w=256"
-                loading="lazy"
-                alt="Photo by Matheus Ferrero"
-                class="h-full w-full object-cover object-center"
-              />
-            </div>
-
-            <div>
-              <div
-                class="text-center font-bold text-primario sm:text-left md:text-lg"
-              >
-                ARQ. Antonio Nevarez
-              </div>
-              <p
-                class="text-center text-sm text-black sm:text-left md:text-base"
-              >
-                Supervisión de obra
-              </p>
-            </div>
-          </div>
-          <!-- person - end -->
-
-          <!-- person - start -->
+          <!-- colaborador -->
           <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-4">
             <div
               class="h-24 w-24 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-32 md:w-32"
@@ -642,7 +615,7 @@
               </p>
             </div>
           </div>
-          <!-- person - end -->
+          <!--  -->
         </div>
       </div>
     </div>
