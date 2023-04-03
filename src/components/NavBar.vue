@@ -8,7 +8,7 @@
           class="text-xl font-bold text-black hover:text-indigo-400"
         >
           <img
-            src="logos/logo.png"
+            src="logos/sinfondo.png"
             alt="ipm group logo"
             width="100"
           />

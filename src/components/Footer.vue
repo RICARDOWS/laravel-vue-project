@@ -61,7 +61,7 @@
               </ul>
             </div> -->
             <div class="w-full lg:w-6/12 px-4">
-              <img src="logos/logo.png" alt="ipm group logo" width="400" />
+              <img src="logos/sinfondo.png" alt="ipm group logo" width="400" />
             </div>
             <div class="w-full lg:w-6/12 px-4 ml-auto pt-4">
               <ul class="list-unstyled">

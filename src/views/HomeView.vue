@@ -28,8 +28,9 @@
                   </div>
                   <img
                     class="block h-full w-full rounded-lg object-cover object-center"
-                    src="projects/chileno/img8.jpg"
+                    src="home/f2chilenobay.jpg"
                     alt="Projecto Construccion Arquitectura"
+                    
                   />
                 </div>
               </router-link>
@@ -51,16 +52,16 @@
                 </div>
                 <img
                   class="block h-full w-full rounded-lg object-cover object-center"
-                  src="projects/haciendas_villas-chileno_bay/img1.jpg"
+                  src="home/f4cabodelsol.jpg"
                   alt="Projecto Construccion Arquitectura"
                 />
               </div>
             </div>
             <!-- Projecto 3 -->
-            <div class="w-full p-1 md:p-2">
+            <div class="w-full p-1 md:p-2 ">
               <div class="overflow-hidde cursor-pointer relative group">
                 <div
-                  class="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
+                  class=" rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-0 text-white flex items-end"
                 >
                   <div>
                     <div
@@ -73,8 +74,9 @@
                 </div>
                 <img
                   class="block h-100 rounded-lg object-cover object-center"
-                  src="projects/park_haciendas-chileno_bay/img3.jpg"
+                  src="home/f3chilenobay.jpg"
                   alt="Projecto Construccion Arquitectura"
+                  
                 />
               </div>
             </div>
@@ -98,7 +100,7 @@
                 </div>
                 <img
                   class="block h-full w-full rounded-lg object-cover object-center"
-                  src="projects/haciendas_villas-chileno_bay/img2.jpg"
+                  src="home/f1chilenobay.jpg"
                   alt="Projecto Construccion Arquitectura"
                 />
               </div>
@@ -120,7 +122,7 @@
                 </div>
                 <img
                   class="block h-full w-full rounded-lg object-cover object-center"
-                  src="projects/varios/entrada_61_recamara/img1.jpg"
+                  src="home/f5villasdelmar.jpg"
                   alt="Projecto Construccion Arquitectura"
                 />
               </div>
@@ -142,7 +144,7 @@
                 </div>
                 <img
                   class="block h-full w-full rounded-lg object-cover object-center"
-                  src="projects/varios/sixples_el_dorado/img1.JPG"
+                  src="home/f6chilenobay.jpg"
                   alt="Projecto Construccion Arquitectura"
                 />
               </div>
@@ -299,14 +301,29 @@
         </div>
         <div class="flex flex-wrap">
           <!-- Cabo del sol -->
-          
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="px-6">
+              <img
+                alt="El dorado"
+                src="https://d5j12c.a2cdn1.secureserver.net/wp-content/uploads/2019/05/CDS_Horz_Web.png"
+                class="h-32 shadow-lg rounded-lg max-w-full mx-auto"
+                style="max-width: 200px"
+              />
+              <div class="pt-6 text-center">
+                <h5 class="text-xl font-bold uppercase">Cabo del Sol</h5>
+                <div class="mt-6">
+                  
+                </div>
+              </div>
+            </div>
+          </div>
           <!-- El dorado -->
-          <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
               <img
                 alt="El dorado"
                 src="clientes/el_dorado/img1.png"
-                class="shadow-lg rounded-lg max-w-full mx-auto"
+                class="h-32 shadow-lg rounded-lg max-w-full mx-auto"
                 style="max-width: 200px"
               />
               <div class="pt-6 text-center">
@@ -333,12 +350,12 @@
             </div>
           </div>
           <!-- Del mar -->
-          <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
               <img
                 alt="Del Mar"
                 src="clientes/del_mar/img2.png"
-                class="shadow-lg rounded-lg max-w-full mx-auto"
+                class="h-32 shadow-lg rounded-lg max-w-full mx-auto"
                 style="max-width: 160px"
               />
               <div class="pt-6 text-center">
@@ -365,12 +382,12 @@
             </div>
           </div>
           <!-- Chileno bay -->
-          <div class="w-full md:w-4/12 lg:w-4/12 lg:mb-0 mb-12 px-4">
+          <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
             <div class="px-6">
               <img
                 alt="Chileno Bay"
                 src="clientes/chileno_bay/img3.png"
-                class="shadow-lg rounded-lg max-w-full mx-auto"
+                class="h-32 shadow-lg rounded-lg max-w-full mx-auto"
                 style="max-width: 200px"
               />
               <div class="pt-6 text-center">
